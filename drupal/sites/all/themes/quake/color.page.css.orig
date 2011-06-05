@@ -1,0 +1,17 @@
+/* pink */
+
+#logoBox {
+	background-image: url(images/pink-logo.gif);
+}
+
+h4 {
+	color: #BF507A;
+}
+
+#bannerQuote { 
+	background-color: #BF507A;
+}
+
+#leftCol ul li {
+	background-image: url(images/pink-dash.gif);
+}
