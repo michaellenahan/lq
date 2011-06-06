@@ -30,6 +30,13 @@ h2 {
 	font-weight: normal;
 }
 
+/*
+ * h3 within the content
+ */
+div.content h3 {
+  padding-top: 1em;
+}
+
 h4 {
 	padding: 2px 0;
 }
@@ -123,6 +130,24 @@ body
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 }
+
+/* 
+ * Deal with Menu Block css
+ */
+
+#leftCol ul li.leaf {
+  list-style: none outside none;
+}
+
+#leftCol ul li.expanded {
+  list-style: none outside none;
+}
+
+#leftCol ul li.expanded .leaf {
+  padding-left: 1em;
+  font-size: 0.8em;
+};
+
 
 #leftCol ul li.last {
 	background: 0 none;
