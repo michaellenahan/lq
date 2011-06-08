@@ -108,6 +108,7 @@
 		<?php if ($main_menu || $secondary_menu): ?>
 			<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu'))); ?>
 		<?php endif; ?>
+    <?php if ($page['sidebar_first']): ?><div id="sidebar_first"><?php print render($page['sidebar_first']); ?></div><?php endif; ?>
 	</div>
 
     <div id="main">
