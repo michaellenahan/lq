@@ -242,4 +242,7 @@ ul.inline li a {
  */
 .media-image {
   float: right;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
 }
