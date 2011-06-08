@@ -236,10 +236,10 @@ ul.inline li a {
 	margin: 0 0 20px 0;
 }
 
-
-
-
-
-
-
-
+/*
+ * media image:
+ * we want images to float right in page
+ */
+.media-image {
+  float: right;
+}
